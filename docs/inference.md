@@ -20,6 +20,12 @@ cat <test_prompt_file> | python examples/inference.py --model_name <training_con
 cat <test_prompt_file> | python examples/inference.py --model_name <training_config.model_name> --peft_model <training_config.output_dir> --use_auditnlg
 # prompt as parameter
 python examples/inference.py --model_name <training_config.output_dir> --prompt_file <test_prompt_file> --use_auditnlg
+
+python examples/inference.py --model_name /mnt/PROJECTS/EmoVA/text-generation-webui/models --prompt_file <test_prompt_file> --use_auditnlg
+
+
+
+
  ```
 The example folder contains test prompts for summarization use-case:
 ```
